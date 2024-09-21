@@ -13,6 +13,11 @@
         "domain:duckdns.org",
         "domain:netcraft.com",
         "domain:uceprotect.net",
+        "domain:abusix.com",
+        "domain:xarf.org",
+        "domain:blocklist.de",
+        "domain:bitninja.io",
+        "domain:bitninja.com",
         "domain:ceye.io"
       ],
       "outboundTag": "block"
@@ -83,7 +88,7 @@
     {
       "type": "field",
       "outboundTag": "block",
-      "port": "22,25,3306,993,465,587,110,995,143,26"
+      "port": "22,25,26,3306,7"
     },
     {
       "type": "field",
